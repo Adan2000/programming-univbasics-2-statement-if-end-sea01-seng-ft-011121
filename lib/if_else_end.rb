@@ -1,2 +1,5 @@
-2.6.1 :002 > current_time = Time.now
-  => 2020-02-25 09:07:47 -0500
+if Time.now.to_i % 2 == 0
+  puts "Even!"
+else
+  puts "Odd!"
+end
